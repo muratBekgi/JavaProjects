@@ -4,7 +4,7 @@ import java.io.*;
 public class FileWriteData {
     public static void main(String [] args) throws Exception{
         Scanner input=new Scanner(System.in);
-        File file=new File("Myrat.txt");
+        File file=new File("FileName.txt");
         if(file.exists()){
             System.out.println("File already exits");
             System.exit(0);
