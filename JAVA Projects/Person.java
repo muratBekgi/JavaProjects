@@ -1,4 +1,4 @@
-package Bekdurdyyev_MartinezP1;
+
 
 abstract class Person {
    private String firstName;
