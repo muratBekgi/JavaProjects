@@ -1,6 +1,6 @@
 public class TestFileClass {
     public static void main(String [] args){
-        java.io.File file=new java.io.File("/Users/MUratBekgi/Desktop/Myrat.txt");
+        java.io.File file=new java.io.File("/Users/MuratBekgi/Desktop/FileName.txt");
         java.util.Scanner input=new java.util.Scanner(System.in);
 
         System.out.println("Does it exits? "+file.exists());
