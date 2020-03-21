@@ -1,5 +1,5 @@
 /*
-@author Myratgeldi Bekdurdyyev
+@author Murat Bekgi
  */
 
 import java.util.*;
