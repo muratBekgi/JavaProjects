@@ -1,4 +1,3 @@
-package Bekdurdyyev_MartinezP1;
 
 public  class Teacher extends Person implements Displayable {
 
