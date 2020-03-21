@@ -1,4 +1,4 @@
-package Bekdurdyyev_MartinezP1;
+
 
 public class Student extends Person implements Displayable{
    private int studentId;
