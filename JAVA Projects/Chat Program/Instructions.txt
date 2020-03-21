@@ -1,0 +1,10 @@
+Chat communication is the process of exchanging messages between two systems continuously. Anyone can break the communication. Both systems come with the following same responsibilities.
+
+Reading from keyboard. Uses an input stream like BufferedReader connected to System.in.
+Sending data to the other system what is read from keyboard. Uses an output stream like PrintWriter connected to getOutputStream() method of Socket.
+Receiving data from the other system. Uses an input stream like BufferedReader connected to getInputStream() method of Socket.
+As the responsibilities are same, both client and server programs contain the same stream objects and same code. The order of using stream objects varies in the while loop.
+
+The flush() method of PrintStream class flushes any uncleared buffers in memory. Generally when the streams are closed, the buffers are pushed out of all the data contained in. But, in the program no stream is closed; so, it is necessary to flush the data explicitly with flush() method.
+
+As you can observe, both programs are using same streams and objects. The difference comes in while loop. Client sends first and then receives where as server first receives and then sends. The other terms of the code are explained in the earlier three applications.
